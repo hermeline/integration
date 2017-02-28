@@ -1,8 +1,8 @@
-body, .container, .header, .nav, div{
+body, .container-fluid, .header, .nav, div{
   margin: 0;
   padding: 0;
 }
-.container {
+.container-fluid {
     width: 1300px;
 }
 .header{
@@ -15,7 +15,7 @@ body, .container, .header, .nav, div{
 .nav{
   padding-top: 10px;
   border-bottom: solid 2px #E44D26;
-  background-color:  rgba(36, 32, 36, 0.9);
+  background-color:  rgba(18, 8, 1, 0.85);
 }
 .home, .how, .contact{
   color: white;
@@ -31,8 +31,52 @@ body, .container, .header, .nav, div{
 .texte{
   padding-top: 120px;
   font-weight: bold;
+  color: #000;
 }
 .multi{
   font-weight: 400;
   font-size: 3.4em;
+}
+h2{
+  color: #EC5326;
+  font-size: 3.2em;
+}
+.partie1{
+  padding-top: 30px;
+}
+.partie2{
+  background-color: #EEEEEE;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.ipad{
+  padding: 50px;
+}
+a{
+  color: #EC5326;
+}
+.partie3{
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.btn{
+  background-color: #EC5326;
+  border-radius: 10px;
+  color: white;
+}
+.end{
+  font-size: 1.5em;
+}
+.about{
+  padding-bottom: 30px;
+}
+footer {
+  background-color: #F5F5F5;
+}
+.pf{
+  padding-top: 30px;
+  padding-bottom: 100px;
+  border-top: solid 1px #E5E5E5;
+  color : black;
+  font-size: 1.2em;
 }
