@@ -1,0 +1,38 @@
+body, .container, .header, .nav, div{
+  margin: 0;
+  padding: 0;
+}
+.container {
+    width: 1300px;
+}
+.header{
+  height :600px;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: center;
+  /*position: fixed;*/
+}
+.nav{
+  padding-top: 10px;
+  border-bottom: solid 2px #E44D26;
+  background-color:  rgba(36, 32, 36, 0.9);
+}
+.home, .how, .contact{
+  color: white;
+  font-size: 0.75em;
+
+}
+.links{
+  padding-top: 10px;
+}
+.sharebuttons{
+  width: 200%;
+}
+.texte{
+  padding-top: 120px;
+  font-weight: bold;
+}
+.multi{
+  font-weight: 400;
+  font-size: 3.4em;
+}
